@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Verificador 3000</title>
+  <link rel="stylesheet" href="estilos.css">
+<link type="text/css" rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+  <div class="encabezado">
+    <img src="https://www.python.org/static/community_logos/python-logo.png" alt="Logo de Python" class="logo">
+    <h1>Verificador 3000</h1>
+  </div>
+
+  <div class="contenedor">
+    <p>Pega tu código Python ya probado en el simulador. Verificaremos si usaste los comandos enseñados en clase y si aparecen comandos no explicados.</p>
+
+    <textarea id="codigo" placeholder="Pega aquí tu código Python..."></textarea>
+    <button onclick="verificarCodigo()">Verificar</button>
+
+    <div id="resultado"></div>
+  </div>
+
+  <script src="verificador.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
